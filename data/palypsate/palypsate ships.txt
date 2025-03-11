@@ -1,7 +1,10 @@
 ship "passionate daughter"
 	noun "daughter"
-	sprite "ship/palypsate large"
-	thumbnail "thumbnail/palypsate large"
+	sprite "ship/passionate daughter/passionate daughter"
+		"frame rate" 4
+		"rewind"
+		"random start frame"
+	thumbnail "thumbnail/passionate daughter"
 	"never disabled"
 	attributes
 		category "Utility"
