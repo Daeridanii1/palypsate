@@ -3,7 +3,7 @@ outfit "no ire, darling"
 	series "Guns"
 	index 14010
 	cost 1
-	thumbnail "outfit/successor pulse laser"
+	thumbnail "outfit/pug seeker"
 	"mass" 10
 	"outfit space" -10
 	"weapon capacity" -10
@@ -12,15 +12,15 @@ outfit "no ire, darling"
 		sprite "projectile/drag cannon"
 			"frame rate" 5
 		"hit effect" "seeker impact"
-		"die effect" "seeker impact"
-		"inaccuracy" 2
-		"velocity" 13
-		"lifetime" 45
-		"reload" 3
-		"firing energy" 25
-		"firing heat" 20
-		"shield damage" 8
-		"hull damage" 8
+		"inaccuracy" 1
+		"velocity" 11
+		"lifetime" 40
+		"random lifetime" 8
+		"reload" 2
+		"firing energy" 5.6
+		"firing heat" 6.4
+		"shield damage" 5.4
+		"hull damage" 5.6
 		"hit force" 3
 	description ""
 
@@ -30,7 +30,7 @@ outfit "singer of memory"
 	series "Guns"
 	index 14020
 	cost 2
-	thumbnail "outfit/successor pulse laser"
+	thumbnail "outfit/pug zapper"
 	"mass" 10
 	"outfit space" -10
 	"weapon capacity" -10
@@ -58,22 +58,30 @@ outfit "no harm, no pain"
 	series "Anti-Missile"
 	index 14010
 	cost 3
-	thumbnail "outfit/successor pulse laser"
-	"mass" 10
-	"outfit space" -10
-	"weapon capacity" -10
+	thumbnail "outfit/pug anti-missile"
+	"mass" 20
+	"outfit space" -20
+	"weapon capacity" -20
 	"turret mounts" -1
 	weapon
 		"hardpoint sprite" "hardpoint/pug anti-missile"
 		"hardpoint offset" 6.
-		"hit effect" "pug anti-missile"
-		"anti-missile" 5
-		"velocity" 200
+		"hit effect" "bimodal impact"
+		"hit effect" "seeker impact"
+		"hit effect" "finisher sparks" 2
+		"fire effect" "seeker impact"
+		"anti-missile" 20
+		"velocity" 800
 		"lifetime" 1
-		"reload" 2
-		"firing energy" 8
-		"firing heat" 2
-	description ""
+		"reload" 42
+		"firing energy" 80
+		"firing heat" 20
+	description `eyes!`
+	description `	to see and to regard!`
+	description `		to intercept.`
+	description `and burn away harm.`
+	description ``
+	description `Given to the palypsate as a way to defend themselves, this unsettling alien eye lays its gaze upon missiles, eradicating them in an instant with a burning glance. How exactly this all works is beyond mortal ken, and perhaps fortunately so.`
 
 outfit "our gift to you"
 	plural "our gifts to you"
@@ -82,17 +90,23 @@ outfit "our gift to you"
 	index 14010
 	cost 11
 	thumbnail "outfit/overclocked repair module"
-	"mass" 8
-	"outfit space" -8
-	"hull repair rate" 0.17
-	"hull energy" 0.17
-	"hull heat" 0.17
+	"mass" 6
+	"outfit space" -6
+	"hull repair rate" 0.12
+	"hull repair multiplier" 0.02
+	"hull energy multiplier" 0.04
+	"hull heat multiplier" 0.04
+	"hull energy" 0.12
+	"hull heat" 0.12
+	"hull" -80
 	description `"shhh," whisper the palypsate.`
 	description `   our mothers would not let us face`
 	description `   the world without first`
 	description `   embracing our resilience.`
 	description `we are grateful.`
 	description `       grateful!`
+	description ``
+	description `The palypsate are alive, and recover from their wounds in much the same way as any other living thing. But their mothers gave them this to speed up the process. Its infiltrating tendrils permeate metal and flesh alike, granting its hosts new regeneration in exchange for only a minor tax of blood.`
 
 outfit "sightful dreams"
 	plural "sightful dreams"
@@ -116,6 +130,7 @@ outfit "always learning"
 	series "Generators"
 	index 14010
 	cost 13
+	thumbnail "outfit/pug gridfire turret"
 	"mass" 6
 	"outfit space" -6
 	"energy generation" 1.25
@@ -125,6 +140,7 @@ outfit "always learning"
 
 outfit "beloved daughter"
 	category "Unique"
+	thumbnail "outfit/quantum keystone"
 	"energy protection" 2
 	"fuel protection" 2
 	"heat protection" 2

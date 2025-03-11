@@ -3,6 +3,7 @@ planet "Everything "
 	outfitter "palypsate poem"
 
 shipyard "palypsate"
+	"epiphytic daughter"
 	"passionate daughter"
 
 outfitter "palypsate poem"

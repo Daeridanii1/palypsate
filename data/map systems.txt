@@ -23,8 +23,8 @@ system "outstretched petal"
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
-	fleet "palypsate large" 1200
-	fleet "palypsate miners" 3000
+	fleet "palypsate large" 2400
+	fleet "palypsate miners" 5000
 	object
 		sprite star/g0
 		distance 22.6286
@@ -80,8 +80,8 @@ system "parting kiss"
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
-	fleet "palypsate large" 1200
-	fleet "palypsate miners" 3000
+	fleet "palypsate large" 2400
+	fleet "palypsate miners" 5000
 	object
 		sprite star/m4
 		period 10
@@ -148,8 +148,8 @@ system "womb of the sky"
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
-	fleet "palypsate large" 800
-	fleet "palypsate miners" 3000
+	fleet "palypsate large" 2000
+	fleet "palypsate miners" 4000
 	object
 		sprite star/k5
 		period 10
