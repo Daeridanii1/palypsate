@@ -1,0 +1,185 @@
+system "outstretched petal"
+	pos 722.607 -866.365
+	government Uninhabited
+	habitable 1400
+	belt 1636
+	link "womb of the sky"
+	asteroids "small rock" 44 9.72
+	asteroids "medium rock" 9 6.0264
+	asteroids "large rock" 20 3.9528
+	asteroids "small metal" 1 9.396
+	asteroids "medium metal" 38 3.4344
+	asteroids "large metal" 1 3.24
+	minables copper 2 11.621
+	minables lead 1 10.892
+	minables silver 11 8.85442
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	fleet "palypsate large" 1200
+	fleet "palypsate miners" 3000
+	object
+		sprite star/g0
+		distance 22.6286
+		period 10.5305
+		offset 180
+	object
+		sprite star/m0
+		distance 76.3714
+		period 10.5305
+	object
+		sprite planet/cloud0
+		distance 314.531
+		period 59.6337
+	object
+		sprite planet/mars
+		distance 542.781
+		period 135.187
+	object
+		sprite planet/cloud1
+		distance 1189.14
+		period 438.375
+	object
+		sprite planet/fog0
+		distance 1882.95
+		period 873.483
+	object
+		sprite planet/rock17
+		distance 2829.71
+		period 1609.2
+
+system "parting kiss"
+	pos 774.405 -927.465
+	government palypsate
+	habitable 233.28
+	belt 1741
+	link "womb of the sky"
+	asteroids "small rock" 27 6.534
+	asteroids "medium rock" 84 3.726
+	asteroids "large rock" 78 5.94
+	asteroids "small metal" 7 4.05
+	asteroids "medium metal" 73 5.13
+	asteroids "large metal" 17 5.994
+	minables aluminum 3 8.09757
+	minables iron 6 8.5715
+	minables lead 4 6.37002
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	fleet "palypsate large" 1200
+	fleet "palypsate miners" 3000
+	object
+		sprite star/m4
+		period 10
+	object
+		sprite planet/tethys
+		distance 147.84
+		period 47.077
+		offset 252.022
+	object "poetry's cenotaph"
+		sprite planet/rock10
+		distance 524.4
+		period 314.496
+		offset 273.967
+		object
+			sprite planet/lava0
+			distance 180
+			period 20.3247
+	object
+		sprite planet/desert2
+		distance 883.44
+		period 687.681
+		offset 21.731
+	object
+		sprite planet/dust6
+		distance 1092.6
+		period 945.83
+		offset 291.934
+	object
+		sprite planet/gas12
+		distance 3514.29
+		period 5456.04
+		offset 263.606
+		object
+			sprite planet/io
+			distance 276
+			period 12.0434
+		object
+			sprite planet/rock17
+			distance 377
+			period 19.2264
+
+system "womb of the sky"
+	pos 790.315 -891.104
+	government palypsate
+	habitable 425.92
+	belt 1913
+	link "outstretched petal"
+	link "parting kiss"
+	asteroids "small rock" 4 9.8774
+	asteroids "medium rock" 3 9.3496
+	asteroids "large rock" 1 4.5994
+	asteroids "small metal" 16 5.1272
+	asteroids "medium metal" 71 8.3694
+	asteroids "large metal" 6 5.9566
+	minables aluminum 12 9.75153
+	minables titanium 3 8.54812
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	fleet "palypsate large" 800
+	fleet "palypsate miners" 3000
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/lava6
+		distance 200.49
+		period 55.0218
+		offset 211.628
+	object "memories of blue"
+		sprite planet/cloud6
+		distance 1596.55
+		period 1236.43
+		offset 298.618
+	object
+		sprite planet/gas4
+		distance 2027.55
+		period 1769.51
+		offset 291.762
+		object
+			sprite planet/rock7
+			distance 263
+			period 15.0429
+			offset 345.677
+	object "beloved metamorphosis"
+		sprite planet/neptune
+		distance 3185.48
+		period 3484.64
+		offset 45.988
+	object
+		sprite planet/gas7
+		distance 7652.86
+		period 12975.7
+		offset 12.0327

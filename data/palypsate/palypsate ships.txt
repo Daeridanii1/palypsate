@@ -1,0 +1,60 @@
+ship "passionate daughter"
+	noun "daughter"
+	sprite "ship/palypsate large"
+	thumbnail "thumbnail/palypsate large"
+	"never disabled"
+	attributes
+		category "Utility"
+		"cost" 350
+		"hull" 22451
+		"required crew" 1
+		"bunks" 1
+		"mass" 1200
+		"drag" 6.15
+		"heat dissipation" .47
+		"fuel capacity" 2000
+		"cargo space" 140
+		"outfit space" 200
+		"weapon capacity" 150
+		weapon
+			"blast radius" 80
+			"shield damage" 800
+			"hull damage" 400
+			"hit force" 1200
+		# Landing
+		"landing speed" 0.01
+		# Power
+		"energy generation" 2
+		"heat generation" 2
+		"energy capacity" 20000
+		# Hyperdrive
+		"jump speed" .2
+		"jump fuel" 100
+		"hyperdrive" 1
+		"silent jumps" 1
+		# Thrusters
+		"thrust" 40
+		"thrusting energy" 2
+		"thrusting heat" 2
+		"turn" 1000
+		"turning energy" 1
+		"turning heat" 1
+		"reverse thrust" 20
+		"reverse thrusting energy" 1
+		"reverse thrusting heat" 1
+
+	gun -30 -361
+#		angle 330
+	gun 42 -361
+#		angle 30
+	gun 0 -385
+	turret -40 -316
+	turret 15 -342
+
+	outfits
+		"no ire, darling" 3
+		"no harm, no pain" 2
+		"our gift to you" 10
+		"sightful dreams" 8
+		"always learning" 10
+		"beloved daughter"

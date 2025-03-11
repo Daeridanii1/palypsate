@@ -1,0 +1,44 @@
+fleet "palypsate large"
+	government "palypsate"
+	names "palypsate"
+	cargo 0
+	personality
+		timid quiet unconstrained
+	variant 5
+		"passionate daughter" 2
+	variant 1
+		"passionate daughter" 3
+	variant 1
+		"passionate daughter"
+
+fleet "palypsate miners"
+	government "palypsate"
+	names "palypsate"
+	cargo 0
+	personality
+		timid quiet mining harvests unconstrained
+	variant 5
+		"passionate daughter" 2
+	variant 1
+		"passionate daughter"
+
+phrase "palypsate"
+	word
+		"beloved"
+		"adored"
+		"loved"
+		"missed"
+		"proud"
+		"appreciated"
+		"thought-of"
+		"darling"
+		"bright-eyed"
+		"geminal"
+		"inquisitive"
+		"thoughtful"
+		"curious"
+		"listening"
+	word
+		" "
+	word
+		"one"

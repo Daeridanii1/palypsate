@@ -1,0 +1,12 @@
+government "palypsate"
+	swizzle 0
+	color 0.13 0.53 0.41
+
+	"player reputation" 0.01
+	"default attitude" 0.01
+	"attitude toward"
+		"Author" 0
+		"Drak" 0
+		"Indigenous Lifeform (Subsidurial)" 0
+		"Indigenous Lifeform (Tree)" 0
+		"Indigenous Lifeform (Tree Two)" 0

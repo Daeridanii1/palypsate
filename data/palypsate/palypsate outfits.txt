@@ -1,0 +1,137 @@
+outfit "no ire, darling"
+	category "Guns"
+	series "Guns"
+	index 14010
+	cost 1
+	thumbnail "outfit/successor pulse laser"
+	"mass" 10
+	"outfit space" -10
+	"weapon capacity" -10
+	"gun ports" -1
+	weapon
+		sprite "projectile/drag cannon"
+			"frame rate" 5
+		"hit effect" "seeker impact"
+		"die effect" "seeker impact"
+		"inaccuracy" 2
+		"velocity" 13
+		"lifetime" 45
+		"reload" 3
+		"firing energy" 25
+		"firing heat" 20
+		"shield damage" 8
+		"hull damage" 8
+		"hit force" 3
+	description ""
+
+outfit "singer of memory"
+	plural "singers of memory"
+	category "Guns"
+	series "Guns"
+	index 14020
+	cost 2
+	thumbnail "outfit/successor pulse laser"
+	"mass" 10
+	"outfit space" -10
+	"weapon capacity" -10
+	"gun ports" -1
+	weapon
+		sprite "projectile/lightning"
+			"frame rate" 60
+			"random start frame"
+			"delay" 6
+		sound "zapper"
+		"hit effect" "zapper impact"
+		"inaccuracy" .3
+		"velocity" 320
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 2.7
+		"firing heat" 1.4
+		"shield damage" 3.7
+		"hull damage" 2.9
+	description ""
+
+outfit "no harm, no pain"
+	plural "no harm, no pain"
+	category "Turrets"
+	series "Anti-Missile"
+	index 14010
+	cost 3
+	thumbnail "outfit/successor pulse laser"
+	"mass" 10
+	"outfit space" -10
+	"weapon capacity" -10
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/pug anti-missile"
+		"hardpoint offset" 6.
+		"hit effect" "pug anti-missile"
+		"anti-missile" 5
+		"velocity" 200
+		"lifetime" 1
+		"reload" 2
+		"firing energy" 8
+		"firing heat" 2
+	description ""
+
+outfit "our gift to you"
+	plural "our gifts to you"
+	category "Systems"
+	series "Repair"
+	index 14010
+	cost 11
+	thumbnail "outfit/overclocked repair module"
+	"mass" 8
+	"outfit space" -8
+	"hull repair rate" 0.17
+	"hull energy" 0.17
+	"hull heat" 0.17
+	description `"shhh," whisper the palypsate.`
+	description `   our mothers would not let us face`
+	description `   the world without first`
+	description `   embracing our resilience.`
+	description `we are grateful.`
+	description `       grateful!`
+
+outfit "sightful dreams"
+	plural "sightful dreams"
+	category "Systems"
+	series "Scanners"
+	index 14010
+	cost 12
+	thumbnail "outfit/scan module"
+	"mass" 1
+	"outfit space" -1
+	"outfit scan power" 2
+	"outfit scan efficiency" 4
+	"tactical scan power" 20
+	"energy consumption" 0.05
+	"silent scans" 1
+	description "This system allows the Heliarchs to scan nearby ships, enabling them to detect weapons or illegal goods."
+
+outfit "always learning"
+	plural "always learning"
+	category "Power"
+	series "Generators"
+	index 14010
+	cost 13
+	"mass" 6
+	"outfit space" -6
+	"energy generation" 1.25
+	"heat generation" 2.5
+	"solar collection" 0.4
+	description "This strange device seems to be partially organic in nature, slowly leaking antiprotons through a constantly-regrowing spongelike structure to release energy. The amount of power produced is inconsistent with the amount of matter and antimatter annihilated, generating more energy than should be possible."
+
+outfit "beloved daughter"
+	category "Unique"
+	"energy protection" 2
+	"fuel protection" 2
+	"heat protection" 2
+	"ion protection" 2
+	"scramble protection" 2
+	"slowing protection" 2
+	"corrosion protection" 2
+	"leak protection" 2
+	"burn protection" 2
+	description ``
