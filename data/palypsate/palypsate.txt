@@ -21,12 +21,37 @@ fleet "palypsate large"
 	variant 1
 		"passionate daughter"
 
+fleet "palypsate buds"
+	government "palypsate"
+	names "palypsate"
+	cargo 0
+	personality
+		timid quiet unconstrained swarming surveillance
+	variant 1
+		"nascent daughter" 6
+	variant 1
+		"nascent daughter" 5
+	variant 1
+		"nascent daughter" 4
+	variant 1
+		"nascent daughter" 3
+	variant 1
+		"nascent daughter" 2
+	variant 1
+		"nascent daughter"
+
 fleet "palypsate miners"
 	government "palypsate"
 	names "palypsate"
 	cargo 0
 	personality
 		timid quiet mining harvests unconstrained
+	variant 10
+		"nascent daughter" 4
+	variant 10
+		"nascent daughter" 3
+	variant 10
+		"nascent daughter"
 	variant 5
 		"epiphytic daughter"
 	variant 5

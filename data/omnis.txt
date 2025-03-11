@@ -4,6 +4,7 @@ planet "Everything "
 
 shipyard "palypsate"
 	"epiphytic daughter"
+	"nascent daughter"
 	"passionate daughter"
 
 outfitter "palypsate poem"

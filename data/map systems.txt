@@ -10,9 +10,9 @@ system "outstretched petal"
 	asteroids "small metal" 1 9.396
 	asteroids "medium metal" 38 3.4344
 	asteroids "large metal" 1 3.24
-	minables copper 2 11.621
-	minables lead 1 10.892
-	minables silver 11 8.85442
+	minables copper 2 2.621
+	minables lead 1 3.892
+	minables silver 3 2.85442
 	trade Clothing 0
 	trade Electronics 0
 	trade Equipment 0
@@ -23,6 +23,7 @@ system "outstretched petal"
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "palypsate buds" 3000
 	fleet "palypsate large" 2400
 	fleet "palypsate miners" 5000
 	object
@@ -67,9 +68,9 @@ system "parting kiss"
 	asteroids "small metal" 7 4.05
 	asteroids "medium metal" 73 5.13
 	asteroids "large metal" 17 5.994
-	minables aluminum 3 8.09757
-	minables iron 6 8.5715
-	minables lead 4 6.37002
+	minables aluminum 3 2.09757
+	minables iron 6 2.5715
+	minables lead 4 1.37002
 	trade Clothing 0
 	trade Electronics 0
 	trade Equipment 0
@@ -80,6 +81,7 @@ system "parting kiss"
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "palypsate buds" 3000
 	fleet "palypsate large" 2400
 	fleet "palypsate miners" 5000
 	object
@@ -136,8 +138,8 @@ system "womb of the sky"
 	asteroids "small metal" 16 5.1272
 	asteroids "medium metal" 71 8.3694
 	asteroids "large metal" 6 5.9566
-	minables aluminum 12 9.75153
-	minables titanium 3 8.54812
+	minables aluminum 12 3.75153
+	minables titanium 3 2.54812
 	trade Clothing 0
 	trade Electronics 0
 	trade Equipment 0
@@ -148,6 +150,7 @@ system "womb of the sky"
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "palypsate buds" 2000
 	fleet "palypsate large" 2000
 	fleet "palypsate miners" 4000
 	object
