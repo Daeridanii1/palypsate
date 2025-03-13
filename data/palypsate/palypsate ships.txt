@@ -65,6 +65,7 @@ ship "epiphytic daughter"
 		"frame rate" 4
 		"rewind"
 		"random start frame"
+		"center" 0 -165
 	thumbnail "thumbnail/epiphytic daughter"
 	"never disabled"
 	attributes
@@ -133,6 +134,7 @@ ship "passionate daughter"
 		"frame rate" 4
 		"rewind"
 		"random start frame"
+		"center" 0 -165
 	thumbnail "thumbnail/passionate daughter"
 	"never disabled"
 	attributes
