@@ -128,6 +128,75 @@ ship "epiphytic daughter"
 		"always learning" 8
 		"beloved daughter"
 
+ship "sensate daughter"
+	noun "daughter"
+	sprite "ship/sensate daughter/sensate daughter"
+		"frame rate" 4
+		"rewind"
+		"random start frame"
+		"center" 0 -140
+	thumbnail "thumbnail/sensate daughter"
+	"never disabled"
+	attributes
+		category "Unclassified"
+		"cost" 350
+		"hull" 14616
+		"required crew" 1
+		"bunks" 1
+		"mass" 620
+		"drag" 7
+		"heat dissipation" .42
+		"fuel capacity" 1600
+		"cargo space" 120
+		"outfit space" 154
+		"weapon capacity" 60
+		weapon
+			"blast radius" 80
+			"shield damage" 800
+			"hull damage" 400
+			"hit force" 1200
+		# Landing
+		"landing speed" 0.015
+		# Behavior
+		"atmosphere scan" 100
+		# Power
+		"energy generation" 2.4
+		"heat generation" 2.4
+		"energy capacity" 12000
+		# Repair
+		"hull repair rate" 5.2
+		"hull energy" 2.1
+		"hull heat" 2.1
+		# Hyperdrive
+		"jump speed" .2
+		"jump fuel" 100
+		"hyperdrive" 1
+		"silent jumps" 1
+		# Thrusters
+		"thrust" 20
+		"thrusting energy" 1
+		"thrusting heat" 1
+		"turn" 500
+		"turning energy" .5
+		"turning heat" .5
+		"reverse thrust" 10
+		"reverse thrusting energy" .5
+		"reverse thrusting heat" .5
+
+	gun -6 -220
+	gun 0 -220
+	gun 0 -220
+		under
+	gun 6 -220
+
+	outfits
+		"no ire, darling" 3
+		"no harm, no pain" 1
+		"our gift to you" 6
+		"sightful dreams" 4
+		"always learning" 8
+		"beloved daughter"
+
 ship "passionate daughter"
 	noun "daughter"
 	sprite "ship/passionate daughter/passionate daughter"

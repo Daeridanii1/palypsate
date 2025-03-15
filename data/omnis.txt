@@ -6,6 +6,7 @@ shipyard "palypsate"
 	"epiphytic daughter"
 	"nascent daughter"
 	"passionate daughter"
+	"sensate daughter"
 
 outfitter "palypsate poem"
 	"no ire, darling"

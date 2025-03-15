@@ -3,23 +3,47 @@ fleet "palypsate large"
 	names "palypsate"
 	cargo 0
 	personality
-		timid quiet unconstrained
-	variant 5
-		"epiphytic daughter" 3
-	variant 5
-		"epiphytic daughter" 2
-	variant 1
-		"epiphytic daughter"
-	variant 5
+		timid quiet unconstrained surveillance
+	variant 2
+		"passionate daughter"
+	variant 2
 		"passionate daughter" 2
 	variant 1
 		"passionate daughter"
 		"epiphytic daughter" 2
 	variant 1
-		"passionate daughter" 2
+		"sensate daughter" 2
 		"epiphytic daughter"
 	variant 1
-		"passionate daughter"
+		"sensate daughter"
+		"epiphytic daughter" 2
+	variant 1
+		"sensate daughter" 2
+		"epiphytic daughter"
+
+fleet "palypsate small"
+	government "palypsate"
+	names "palypsate"
+	cargo 0
+	personality
+		timid quiet unconstrained surveillance
+	variant 2
+		"epiphytic daughter"
+	variant 2
+		"sensate daughter"
+	variant 1
+		"sensate daughter"
+		"epiphytic daughter"
+	variant 1
+		"sensate daughter" 2
+	variant 1
+		"epiphytic daughter" 2
+	variant 1
+		"sensate daughter"
+		"nascent daughter" 4
+	variant 1
+		"epiphytic daughter"
+		"nascent daughter" 3
 
 fleet "palypsate buds"
 	government "palypsate"

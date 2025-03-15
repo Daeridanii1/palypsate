@@ -24,7 +24,8 @@ system "outstretched petal"
 	trade Metal 0
 	trade Plastic 0
 	fleet "palypsate buds" 3000
-	fleet "palypsate large" 2400
+	fleet "palypsate small" 3000
+	fleet "palypsate large" 7000
 	fleet "palypsate miners" 5000
 	object
 		sprite star/g0
@@ -81,9 +82,10 @@ system "parting kiss"
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
-	fleet "palypsate buds" 3000
-	fleet "palypsate large" 2400
-	fleet "palypsate miners" 5000
+	fleet "palypsate buds" 2400
+	fleet "palypsate small" 4000
+	fleet "palypsate large" 7000
+	fleet "palypsate miners" 2400
 	object
 		sprite star/m4
 		period 10
@@ -151,8 +153,9 @@ system "womb of the sky"
 	trade Metal 0
 	trade Plastic 0
 	fleet "palypsate buds" 2000
-	fleet "palypsate large" 2000
-	fleet "palypsate miners" 4000
+	fleet "palypsate small" 2500
+	fleet "palypsate large" 3500
+	fleet "palypsate miners" 8000
 	object
 		sprite star/k5
 		period 10
