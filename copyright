@@ -1,13 +1,19 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: {{your plugin name here}}
-Upstream-Contact: {{your name here}} <{{your email here}}>
-Source: {{your plugin github url here}}
-
-Files: *
-Copyright: {{your name and email again}}
+Upstream-Name: palypsate
+Upstream-Contact: Daeridanii (daeridanii44@gmail.com)
+Source: https://github.com/Daeridanii1/palypsate
 
 Files:
- icon*.png
-Copyright: Michael Zahniser <mzahniser@gmail.com>
+ icon*
+
+ images/ship/epiphytic?daughter*
+ images/ship/nascent?daughter*
+ images/ship/passionate?daughter*
+ images/ship/sensate?daughter*
+
+ images/thumbnail/epiphytic?daughter*
+ images/thumbnail/nascent?daughter*
+ images/thumbnail/passionate?daughter*
+ images/thumbnail/sensate?daughter*
+Copyright: Daeridanii (https://github.com/Daeridanii1)
 License: CC-BY-SA-4.0
-Comment: Update this when you create your plugin's icon!
