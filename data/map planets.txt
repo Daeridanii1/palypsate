@@ -15,7 +15,7 @@ planet "beloved metamorphosis"
 		services
 			"job board"
 			"offers missions"
-		description "The palypsate push images of deep change into your mind; flesh bends and warps, metal and flesh become one and then become two again. Your mind feels like oil on water - separate from that of the palypsate, immiscible, and yet bouyed up by the great waves of their consciousness, shaped and formed by their interest, their calm, their innocent curiosity."
+		description "the palypsate push images of deep change into your mind; flesh bends and warps, metal and flesh become one and then become two again. Your mind feels like oil on water - separate from that of the palypsate, immiscible, and yet bouyed up by the great waves of their consciousness, shaped and formed by their interest, their calm, their innocent curiosity."
 		description ``
 		description "	You feel that something is right."
 		
@@ -38,7 +38,7 @@ planet "memories of blue"
 		services
 			"job board"
 			"offers missions"
-		description "The palypsate let images of loneliness and sorrow fall over your mind; saying goodbye to someone important, but they were saying goodbye to you, weren't they? And an enormous ocean of stars, infinitely bright and dark all at once - and you can see deep in it, deep in the lightless realms of the beautiful cosmos, your own eyes."
+		description "the palypsate let images of loneliness and sorrow fall over your mind; saying goodbye to someone important, but they were saying goodbye to you, weren't they? And an enormous ocean of stars, infinitely bright and dark all at once - and you can see deep in it, deep in the lightless realms of the beautiful cosmos, your own eyes."
 		description ""
 		description "	You never look at them this way anywhere else."
 
@@ -58,6 +58,6 @@ planet "poetry's cenotaph"
 		services
 			"job board"
 			"offers missions"
-		description "The palypsate extend the veil of the exquisite over your mind; a thousand thousand stars burn tiny paths around a snailshell, time contorts into a cycle that holds eternities within a second, and you see fragments of their dreams, of the things you have done and will do and will, long into the future, regret. You feel the edges of the palypsate's identities retract, all bearing a strange sort of fear, a fear of you they cannot forget and that won't dissuade them."
+		description "the palypsate extend the veil of the exquisite over your mind; a thousand thousand stars burn tiny paths around a snailshell, time contorts into a cycle that holds eternities within a second, and you see fragments of their dreams, of the things you have done and will do and will, long into the future, regret. You feel the edges of the palypsate's identities retract, all bearing a strange sort of fear, a fear of you they cannot forget and that won't dissuade them."
 		description ""
 		description `	You wonder if they're right.`
