@@ -1,26 +1,63 @@
 planet "beloved metamorphosis"
 	attributes palypsate
-	landscape land/sky3
-	description `This ancient and quiet world, orbiting a dim red sun, is home to the microchip foundries of House Idriss, the Arach guild that specializes in computers and advanced electronics. Outside of the cities, which are clustered around the equator, Ablub's Invention is uninhabited except by the native lifeforms, including strange, spindly-legged quadrupeds, awkward birds with leathery wings, and amphibians with webbed feet and long, whiskered snouts.`
-	spaceport `The day-night cycle here is at least three times as long as any of the Coalition's species are habituated to, so the entire city enters a "false nighttime" in the middle of the day, shuttering all the windows so that the locals can rest and reset their biological clocks. And in the middle of the night, the city is brightly lit for a "false day."`
-	spaceport `	The local work schedule has adapted to this unusual cycle, with the two true daytime periods serving the equivalent of the human work week, and the false daytime treated as a weekend, a time for socializing or working at home.`
+	landscape land/clouds14
+	description `here!`
+	description `	we became more than we were`
+	description `		we became alive!`
+	description `	life is an exercise in poetry`
+	description `	your eyes let you see it.`
+	description ``
+	description `All around you you feel the rock itself rising up like a living creature, like an ancient tree, hungry for the light. The wide sky here is inviting; it makes you want to fly, make you remember how lucky you are to travel the universe as you do.`
 	bribe 0
 	outfitter "palypsate poem"
+	port "Daydream"
+		recharges all
+		services
+			"job board"
+			"offers missions"
+		description "The palypsate push images of deep change into your mind; flesh bends and warps, metal and flesh become one and then become two again. Your mind feels like oil on water - separate from that of the palypsate, immiscible, and yet bouyed up by the great waves of their consciousness, shaped and formed by their interest, their calm, their innocent curiosity."
+		description ``
+		description "	You feel that something is right."
+		
 
 planet "memories of blue"
 	attributes palypsate
-	landscape land/sky3
-	description `This ancient and quiet world, orbiting a dim red sun, is home to the microchip foundries of House Idriss, the Arach guild that specializes in computers and advanced electronics. Outside of the cities, which are clustered around the equator, Ablub's Invention is uninhabited except by the native lifeforms, including strange, spindly-legged quadrupeds, awkward birds with leathery wings, and amphibians with webbed feet and long, whiskered snouts.`
-	spaceport `The day-night cycle here is at least three times as long as any of the Coalition's species are habituated to, so the entire city enters a "false nighttime" in the middle of the day, shuttering all the windows so that the locals can rest and reset their biological clocks. And in the middle of the night, the city is brightly lit for a "false day."`
-	spaceport `	The local work schedule has adapted to this unusual cycle, with the two true daytime periods serving the equivalent of the human work week, and the false daytime treated as a weekend, a time for socializing or working at home.`
+	landscape land/clouds15
+	description `		why?`
+	description `do the memories leave so much behind`
+	description `	why don't you keep in`
+	description `glass`
+	description `the sounds of the voices you heard in your`
+	description `				youth?`
+	description ``
+	description `The sky here runs like water over the landscape, bubbles fresh clouds over the hills and vales. The air is filled with the scent of solitude; it makes you want to sob for hours as if no one could hear.`
 	bribe 0
 	outfitter "palypsate poem"
+	port "Daydream"
+		recharges all
+		services
+			"job board"
+			"offers missions"
+		description "The palypsate let images of loneliness and sorrow fall over your mind; saying goodbye to someone important, but they were saying goodbye to you, weren't they? And an enormous ocean of stars, infinitely bright and dark all at once - and you can see deep in it, deep in the lightless realms of the beautiful cosmos, your own eyes."
+		description ""
+		description "	You never look at them this way anywhere else."
 
 planet "poetry's cenotaph"
 	attributes palypsate
-	landscape land/sky3
-	description `This ancient and quiet world, orbiting a dim red sun, is home to the microchip foundries of House Idriss, the Arach guild that specializes in computers and advanced electronics. Outside of the cities, which are clustered around the equator, Ablub's Invention is uninhabited except by the native lifeforms, including strange, spindly-legged quadrupeds, awkward birds with leathery wings, and amphibians with webbed feet and long, whiskered snouts.`
-	spaceport `The day-night cycle here is at least three times as long as any of the Coalition's species are habituated to, so the entire city enters a "false nighttime" in the middle of the day, shuttering all the windows so that the locals can rest and reset their biological clocks. And in the middle of the night, the city is brightly lit for a "false day."`
-	spaceport `	The local work schedule has adapted to this unusual cycle, with the two true daytime periods serving the equivalent of the human work week, and the false daytime treated as a weekend, a time for socializing or working at home.`
+	landscape land/sky11
+	description `	starlight, it shudders`
+	description `never any shame`
+	description `		i can hear it all now, all so dear`
+	description `never any hesitation.`
+	description ``
+	description `Everything moves in new directions, every bit of stone and soil all at once pushed into a new phase of being where it is somehow more and less than it was before. As you contemplate the glittery whorl of something you cannot describe and will not understand, you realize that all this world is an illusion, and that you're okay with that.`
 	bribe 0
 	outfitter "palypsate poem"
+	port "Daydream"
+		recharges all
+		services
+			"job board"
+			"offers missions"
+		description "The palypsate extend the veil of the exquisite over your mind; a thousand thousand stars burn tiny paths around a snailshell, time contorts into a cycle that holds eternities within a second, and you see fragments of their dreams, of the things you have done and will do and will, long into the future, regret. You feel the edges of the palypsate's identities retract, all bearing a strange sort of fear, a fear of you they cannot forget and that won't dissuade them."
+		description ""
+		description `	You wonder if they're right.`
