@@ -1,0 +1,209 @@
+mission "palypsate 1"
+	entering
+	name "visit us"
+	source
+		attributes "palypsate"
+	destination "memories of blue"
+	on offer
+		conversation
+			`As the violet wisps of your ship's jump drive fade away, you feel a sudden presence pushing at the edge of your mind. In a still, crystallized moment of time, you feel the coldness of water at the tips of your fingers.`
+			choice
+				`   (Give in.)`
+				`   (Resist.)`
+					to activate
+						never
+			`	...`
+			`	...`
+			`	...`
+			`	...`
+			`	...`
+			`	...`
+			choice
+				`	(...)`
+				`	(you can see yourself on the SHORES of a great lake)`
+				`	(you are wrapped in MEMORIES of blue)`
+				`	(this is a METAMORPHOSIS)`
+				`	(no, no, WAIT )`
+				`	(?)`
+				`	(?`
+				`	?`
+			`	...`
+			`	...`
+			`	...`
+			`	...`
+			`	...`
+			`	...`
+			choice
+				`	(!!!)`
+				`	(NO!)`
+				`	(something HURTS)`
+				`	(so)`
+				`	(what IS`
+				`	YOU)`
+				`	??!`
+			`************************************************************************************************************************************************************************************************************************************************************************************************************************************************`
+			`*****************************************************************************************************************************************************************************************************************************************************`
+			`*******************************************************************************************************************************************************************************************************************************************************************************************************`
+			`****************************************************************************************************************************************************************************************************************************************`
+			`***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************`
+			`**********************************************************************************************************************************************************************************************************************************`
+			`************************************************************************************************************************************************************************************************************************************************`
+			`*******************************************************************************************************************************************************************************************`
+			`******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************`
+			`***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************`
+			choice
+				`	(SCREAM)`
+				`	(SCREAM`
+				`	SCREAM`
+			choice
+				`	it's so so loud`
+			choice
+				`y 			o ucann		ot hea	r 	yourse		lf t	hin		k`
+			choice
+				`P					le				a se 					STOP`
+			choice
+				`						please`
+				`						please`
+				`						please`
+				`						please`
+				`						please`
+				`						please`
+				`						please`
+				`						please`
+				`						please`
+				`						please`
+				`						please`
+				`						please`
+				`						please`
+				`						please`
+				`						please`
+				`						please`
+				`						please`
+				`						please`
+				`						please`
+				`						please`
+				`						please`
+			choice
+				`	(Stop.)`
+				`	(Continue.)`
+					goto loud
+			`	The crystal of time shatters on the floor, but only for a moment. The bridge of the <ship> is there, around you. You are there. It's a lull of reality, you realize. Your thoughts stand alone in your mind. And then it all goes away as the`
+			choice
+				`	palypsate`
+			`	brush once again against the edges of YOUR mind and an image of`
+			choice
+				`	extinct whales`
+			`	deep in the ocean that YOU once saw on a historical program breaches the waves of your psyche`
+			choice
+				`	for you are a placid ocean`
+			`	calm and quiet and now you can feel the`
+			choice
+				`	palypsate`
+			`	separating from you like`
+			choice
+				`	oil`
+			`	from`
+			choice
+				`	water`
+			`	and you are left floating in a bubble of yourself.`
+			`	In the instant haze of your ship's bridge, your vision continues to warp and blur, and images, memories of your experiences rise to the surface, imprinting their forms on the back of your brain. Other memories, too, rush in: the memories of blue, of changing, of loss and leaving behind dear loves. Were these yours? You feel the skin of other things against the bubble of yourself, moving like the great currents under the earth, ribbed and yawning.`
+			choice
+				`	"why are you here?"`
+					goto why
+				`	"what are you?"`
+			`	, one of these asks yourself, its voice long and quiet. You say you're a human, but that doesn't mean very much, does it? You're a thinking being, you communicate, and that seems to be enough.`
+				goto palypsate
+			label why
+			`	, one of these asks yourself, its voice long and quiet. You say you're an explorer, and you feel a deep thrum from the liquid earth, for they too are explorers of a different sort, though one no less noble or significant.`
+			label palypsate
+			`	"Who are you?"`
+			`	, you ask in return, and they tell you.`
+			`			we are the palypsate`
+			`		we are alone`
+			choice
+				`	"Alone?"`
+			`			they left us behind,`
+			`		our mothers`
+			`	as they yearned to see new stars`
+			`		as they burned to know`
+			`			what they couldn't know as our keepers`
+			``
+			`		and left us behind`
+			`alone`
+			`		but not abandoned`
+			`	for in all their passion and desire to see the wide universe`
+			`		we remained`
+			`	their most beloved art`
+			choice
+				`	"Could I have met them?"`
+			`	no, say the palypsate,`
+			`			we would have known it`
+			`		seen it in our dreams`
+			`	of times and places`
+			`far remote`
+			``
+			`		we dreamed of you coming`
+			`	the spearpoint of a great host`
+			`		of silver eyes and hands`
+			`			we wonder`
+			`	whether you will be as we foresaw`
+			`			or something new`
+			choice
+				`	"What did you do to me earlier?"`
+			`			we regret, say the palypsate,`
+			`hurting you`
+			`		your mind is small`
+			`			fragile and precious`
+			`		rare and artful`
+			``
+			`	the great ocean does not flow through the aperture of a needle`
+			`		it never could`
+			`	and that does not shame the ocean or the needle`
+			`		it is merely so`
+			`	and we shall let you keep yourself to yourself`
+			`now on`
+			choice
+				`	(The palypsate want you to ask something more, so)`
+					to activate
+						never
+				`	(Ask.)`
+			`	visit us, say the palypsate,`
+			`	at the seat of our memories`
+			`	where all was once made and unmade`
+			`	where time`
+			`ends`
+			``
+			`	...`
+			`	...`
+			`	...`
+			`	...`
+			`	...`
+			`	...`
+			choice
+				`	The presence fades away,`
+			`	and you are left back on the bridge of your ship, only seconds having passed. Etched into your mind is a location, a nearby planet.`
+			`	Home.`
+				accept
+		
+			label loud
+			`!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!`
+			choice
+				`	(Hold on.)`
+				`	(Resist.)`
+			`	In the moments before your body slumps to the floor of the <ship>'s bridge, you wonder what this was. Not just this encounter, but life itself. Was it enough? Was it satisfactory? Did you accomplish the things that really mattered?`
+			choice
+				`	(Defy death.)`
+				`	(You can still make it.)`
+			`	People say you see your life flash before your eyes, but you know now that's not true. It never has been. Is this what you expected when you became a pilot? Is this what you expected when you decided to play this game?`
+			choice
+				`	(Struggle against the inevitable.)`
+				`	(Persist vainly.)`
+			`	You wonder if the draw towards the macabre is something fundamental to the human psyche. You know, watching the unfolding of bad decisions; the dew studded petals of a flower, opening to face the dawn?`
+			`	You remember the lines to an old poem, saying    hell must open like a red rose for the dead to pass.` # H.D., "Eurydice"
+			choice
+				`	(Time runs out.)`
+			`	You're getting close to the floor now. If you could feel it, there would be a cold drip from your ears as your liquefying brain drains from your skull. But it all fades away together, doesn't it? And as the perceptions drop away, the fear and pain go too...`
+			choice
+				`	(Die.)`
+			`	All that's left, you realize, is regret.`
+				die

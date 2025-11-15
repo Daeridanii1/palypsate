@@ -1,4 +1,5 @@
 system "outstretched petal"
+	attributes palypsate
 	pos 722.607 -866.365
 	government Uninhabited
 	habitable 1400
@@ -58,6 +59,7 @@ system "outstretched petal"
 		period 1609.2
 
 system "parting kiss"
+	attributes palypsate
 	pos 774.405 -927.465
 	government palypsate
 	habitable 233.28
@@ -128,6 +130,7 @@ system "parting kiss"
 			period 19.2264
 
 system "womb of the sky"
+	attributes palypsate
 	pos 790.315 -891.104
 	government palypsate
 	habitable 425.92
