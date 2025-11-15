@@ -1,6 +1,7 @@
 mission "palypsate 1"
 	entering
 	name "visit us"
+	description ". . . . . ."
 	source
 		attributes "palypsate"
 	destination "memories of blue"
@@ -12,12 +13,14 @@ mission "palypsate 1"
 				`   (Resist.)`
 					to activate
 						never
+			``
 			`	...`
 			`	...`
 			`	...`
 			`	...`
 			`	...`
 			`	...`
+			``
 			choice
 				`	(...)`
 				`	(you can see yourself on the SHORES of a great lake)`
@@ -27,12 +30,14 @@ mission "palypsate 1"
 				`	(?)`
 				`	(?`
 				`	?`
+			``
 			`	...`
 			`	...`
 			`	...`
 			`	...`
 			`	...`
 			`	...`
+			``
 			choice
 				`	(!!!)`
 				`	(NO!)`
@@ -87,7 +92,7 @@ mission "palypsate 1"
 				`	(Stop.)`
 				`	(Continue.)`
 					goto loud
-			`	The crystal of time shatters on the floor, but only for a moment. The bridge of the <ship> is there, around you. You are there. It's a lull of reality, you realize. Your thoughts stand alone in your mind. And then it all goes away as the`
+			`	The crystal of time shatters on the floor, but only for a moment. The bridge of the <ship> is there, around you. You are in a real place. You can feel the boundaries of your skin. It's a lull of reality, you realize. Your thoughts stand alone in your mind. And then it all goes away as the`
 			choice
 				`	palypsate`
 			`	brush once again against the edges of YOUR mind and an image of`
@@ -179,6 +184,7 @@ mission "palypsate 1"
 			`	...`
 			`	...`
 			`	...`
+			``
 			choice
 				`	The presence fades away,`
 			`	and you are left back on the bridge of your ship, only seconds having passed. Etched into your mind is a location, a nearby planet.`
@@ -199,7 +205,8 @@ mission "palypsate 1"
 				`	(Struggle against the inevitable.)`
 				`	(Persist vainly.)`
 			`	You wonder if the draw towards the macabre is something fundamental to the human psyche. You know, watching the unfolding of bad decisions; the dew studded petals of a flower, opening to face the dawn?`
-			`	You remember the lines to an old poem, saying    hell must open like a red rose for the dead to pass.` # H.D., "Eurydice"
+			`	You remember the lines to an old poem, saying    hell must open like a red rose for the dead to pass.` 
+			# H.D., "Eurydice"
 			choice
 				`	(Time runs out.)`
 			`	You're getting close to the floor now. If you could feel it, there would be a cold drip from your ears as your liquefying brain drains from your skull. But it all fades away together, doesn't it? And as the perceptions drop away, the fear and pain go too...`
@@ -207,3 +214,195 @@ mission "palypsate 1"
 				`	(Die.)`
 			`	All that's left, you realize, is regret.`
 				die
+	on complete
+		conversation
+			`Through the intervening space your swift craft clips, and you don't need to know the details of the world around you to land it on the surface. You've done it many times before. And as the <ship> pierces through the blue blue clouds of this world, you hear the distant sound of a coin drop and suddenly the`
+			choice
+				`	palypsate`
+			`	touch the waving cilia of YOUR consciousness again. They are a great wind, throwing you through the air like pollen so that you might settle on some far and foreign patch of land. They are guiding you, you can feel it. You are going someplace important, where all this once began, and where all this AT some point in the deep past or future, will end.`
+			choice
+				`	(Go with them.)`
+					goto continue
+				`	(Shy away.)`
+			`	You feel the vastness of the`
+			choice
+				`	palypsate`
+			`	shudder beneath you. But they do not thrash, do not scream as before. The presence on your mind lifts away, the world comes back into sharp focus; you can hear and see and smell everything around you. You alter your ship's course, bringing it up out of the atmosphere.`
+				launch
+			
+			label continue
+			`	Distantly, there is the sound of your ship's landing gear on the surface. But that is so, so far away, much farther than the sense of BLUE that has become the world. Tickling the edges of you, the memories of the`
+			choice
+				`	palypsate`
+			`	bleed into YOU again, now so much clearer and more distinct:`
+			label remember
+			``
+			`	...`
+			`	...`
+			`	...`
+			`	...`
+			`	...`
+			`	...`
+			``
+			`	YOU remember`
+			choice
+				`	the last parting touch`
+					to display
+						has "palypsate: sight"
+						has "palypsate: sound"
+						has "palypsate: scent"
+						has "palypsate: taste"
+					goto touch
+				`	the sight of the clouds`
+					to display
+						not "palypsate: sight"
+					goto sight
+				`	the sound of the ships`
+					to display
+						not "palypsate: sound"
+					goto sound
+				`	the scent of THEM`
+					to display
+						not "palypsate: scent"
+					goto scent
+				`	the taste of the fresh air`
+					to display
+						not "palypsate: taste"
+					goto taste
+			
+			label sight
+			action
+				set "palypsate: sight"
+			`	above you on that last day, when THEY prepared to leave. It was a blue day, and the only clouds in the sky were thin wisps high in the atmosphere, sort of like the`
+			choice
+				`	wedding veils`
+			`	that you've seen in human space. When the ships launched, the clouds curled around them; the wisps became like outstretched fingers yearning for one last touch before they were separated forever from their beloved.`
+				goto remember
+
+			label sound
+			action
+				set "palypsate: sound"
+			`	roaring like a thousand thunders as they took off, carrying THEM on a million year voyage to new wonders. It was so loud, you remember, reminiscent of the`
+			choice
+				`	first time`
+			`	you heard a starship take off: it was only a shuttle, but it was overwhelming. When THEY left, silence reigned for eons after, and you became accustomed to it, but you still remember the sounds of THEIR voices.`
+				goto remember
+
+			label scent
+			action
+				set "palypsate: scent"
+			`	drifting on the wind currents as THEY walked. It was vaguely sweet and a little acidic; it makes you think of splitting the skin on a fresh`
+			choice
+				`	orange`
+			`	and all at once the oils and volatile sparks of it suffuse the air. It's wonderful, you realize. When the engines of the ships started, the scent was replaced with ozone as the repulsor engines split the air, but the last vestiges of what once was still remained.`
+				goto remember
+			
+			label taste
+			action
+				set "palypsate: taste"
+			`	, crisp and wild, something untamed even by THEM, who had shaped the world and minds all to themselves. It was a cold day, the air sharp and brittle and it reminded you of a`
+			choice
+				`	festival`
+			`	you saw once, set in the midst of autumn on Earth in one of the last few wild places. As the countless seasons passed and will pass, the memory of this day and the air of it will never fade.`
+				goto remember
+			
+			label touch
+			action
+				clear "palypsate: sight"
+				clear "palypsate: sound"
+				clear "palypsate: scent"
+				clear "palypsate: touch"
+			``
+			`	...`
+			`	...`
+			`	...`
+			`	...`
+			`	...`
+			`	...`
+			``
+			choice
+				`	(Reach out.)`
+				`	(Reach out.)`
+				`	(Reach out.)`
+				`	(Reach out.)`
+				`	(Reach out.)`
+				`	(Reach out.)`
+				`	(Reach out.)`
+				`	(Reach out.)`
+				`	(Reach out.)`
+				`	(Reach out.)`
+			`	we miss them so much,`
+			`				say the palypsate,`
+			`		the mothers of us.`
+			`	we persevere as art, as keepers of`
+			`memory`
+			`		beloved memory`
+			``
+			`	what is the difference between`
+			`			a memory and a dream`
+			`		that is not forgotten on waking?`
+			`	reality is vapid as a`
+			`feather`
+			`			it serves only to bind us`
+			choice
+				`	"How can reality not mean anything?"`
+			`	something being meaningful, say the palypsate`
+			`		is not a matter of real substance`
+			`			to dream, to fantasize beyond the bounds of`
+			`reality`
+			`	is the nature of life`
+			`		is the fundament of feeling`
+			``
+			`		at the confluence of the past and future`
+			`	all the water of time and thought pours`
+			`			through a keyhole`
+			`		and is crystallized in art`
+			`	sound and sight and`
+			`touch`
+			``
+			`Faintly, you think you feel something sobbing.`
+			choice
+				`	(Reach out.)`
+					goto comfort
+				`	(Pull back.)`
+			`	You feel the vastness of the`
+			choice
+				`	palypsate`
+			`	writhe and lament. But they do not scream as they did before. The presence on your mind lifts away, the world comes back into sharp focus; you can hear and see and smell everything around you. You take off from the world, leaving the palypsate behind. Alone.`
+				launch
+
+			label comfort
+			action
+				set "comforted the palypsate"
+				log "Factions" "palypsate" "the palypsate are a species of artificial biomechanical spacelife dwelling in the far northwest. Long abandoned by their mothers, their creators, they spent eons in solitude, budding their great minds again and again. YOU reached out and touched them. They are no longer alone."
+			``
+			`	...`
+			`	...`
+			`	...`
+			`	...`
+			`	...`
+			`	...`
+			``
+			choice
+				`	In the inner mind`
+			`	your hand falls on the petal of a great flower. It is made of flesh and steel. It warps minds and matter in ways you could not fathom, much less describe. It shudders with an inexpressable weight and yet, you reach out and`
+			choice
+				`	comfort it`
+			`	, a vast and unknowable thing. It is alien and terrible, like nothing else you have ever experienced. YOU are not alone.`
+			`	Neither are they.`
+			``
+			`	...`
+			`	...`
+			`	...`
+			`	...`
+			`	...`
+			`	...`
+			``
+			choice
+				`	(Let the moment pass.)`
+			`	When you are ready, the touch ends. the palypsate slither away from your mind, and though you can hear them in the distance, like voices on the wind, for the moment, only you remain. You look up at the sky of the world here, at its infinite blue.`
+			`	Dusty words crawl their way up into your mind, from someplace long forgotten:`
+			``
+			`In the book that is my memory before which little can be read, there sits a heading saying "here begins the new life."` 
+			# Dante Alighieri, "La Vita Nuova" 
+			# This doesn't copy any specific translation; I went with an interpretation that I think has a nice rhythm.
